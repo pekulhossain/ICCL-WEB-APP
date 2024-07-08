@@ -26,7 +26,7 @@ const NavBar = () => {
                             }
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl"><div>
+                    <a href="/" className="btn btn-ghost text-xl"><div>
                         <img src={log} />
                     </div></a>
                 </div>

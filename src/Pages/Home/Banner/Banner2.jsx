@@ -27,7 +27,7 @@ const Banner2 = () => {
               if (mouseOver) return
               timeout = setTimeout(() => {
                 slider.next()
-              }, 2000)
+              }, 3000)
             }
             slider.on("created", () => {
               slider.container.addEventListener("mouseover", () => {

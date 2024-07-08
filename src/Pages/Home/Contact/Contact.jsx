@@ -8,7 +8,7 @@ import ContactForm from "./ContactForm";
 
 const Contact = () => {
     return (
-        <section className="py-8 mb-12 px-2 bg-slate-100">
+        <section className="py-28 mb-12 px-2 bg-slate-100">
             <SectionTitle subHeading={"GET IN TOUCH"}
                 heading={"Let's Contact Us"}
                 Paragraph={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}>

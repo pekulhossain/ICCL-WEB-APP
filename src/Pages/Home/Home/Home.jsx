@@ -34,7 +34,7 @@ const Home = () => {
             <Products></Products>
             <BestCompa></BestCompa>
             <Question></Question>
-            <NavLink to="testimonial"><Testimonial></Testimonial></NavLink>
+            <Testimonial></Testimonial>
             <Makeorder></Makeorder>
             <Clients></Clients>
             <Contact></Contact>

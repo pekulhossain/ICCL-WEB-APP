@@ -14,7 +14,7 @@ const About = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
-        className="flex py-8 mb-12">
+        className="flex py-8 mb-12 py-28">
             <div className="grid gap-4 md:grid-cols-2 sm:grid-cols-1 flex-1 mr-4">
                 <div className="transform trasition duration-500 hover:scale-95"> <img className=" rounded-tl-xl" src={aboutimg1} alt="" /></div>
                 <div className="transform trasition duration-500 hover:scale-95"> <img className="rounded-tr-xl" src={aboutimg2} alt="" /></div>

@@ -19,7 +19,7 @@ const Testimonial = () => {
     }, [])
 
     return (
-        <section className="py-2 bg-slate-100">
+        <section className="py-28 bg-slate-100">
             <SectionTitle subHeading={"WHAT PEOPLE SAY ABOUT US"}
                 heading={"Our Testimonial"}
                 Paragraph={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}>

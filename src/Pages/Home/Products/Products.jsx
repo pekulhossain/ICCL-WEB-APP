@@ -9,7 +9,7 @@ import {fadeIn} from '../../../FramerMotion/variants'
 const Products = () => {
     return (
 
-        <section className=" py-4 bg-slate-100">
+        <section className="py-28 bg-slate-100">
             <motion.div
             variants={fadeIn("up", 0.8)}
             initial ="hidden"

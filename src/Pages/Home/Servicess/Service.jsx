@@ -8,7 +8,7 @@ import Counter from '../../../Counteranimation/Counter';
 // import aopimg from '../../../assets/Services/aop.JPG';
 const Service = () => {
     return (
-        <section>
+        <section className="py-28">
             <SectionTitle subHeading={'WHAT WE DO'}
                 heading={'Our Services'}>
 
