@@ -6,6 +6,7 @@ import aboutimg4 from "../../../assets/About/4.jpg";
 import { motion } from 'framer-motion';
 //variants
 import { fadeIn } from '../../../FramerMotion/variants'
+import { Helmet } from "react-helmet-async";
 
 const About = () => {
     return (
@@ -21,6 +22,9 @@ const About = () => {
                 <div className="transform trasition duration-500 hover:scale-95"> <img className="rounded-bl-xl" src={aboutimg3} alt="" /></div>
                 <div className="transform trasition duration-500 hover:scale-95"> <img className="rounded-br-xl" src={aboutimg4} alt="" /></div>
             </div>
+            <Helmet>
+                <title>ICCL || About-Us</title>
+            </Helmet>
             <div
             className="flex-1">
 

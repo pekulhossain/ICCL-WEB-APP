@@ -5,11 +5,15 @@ import Womensitems from "./Womensitems";
 import {motion} from 'framer-motion';
 //variants
 import {fadeIn} from '../../../FramerMotion/variants'
+import { Helmet } from "react-helmet-async";
 
 const Products = () => {
     return (
 
         <section className="py-28 bg-slate-100">
+            <Helmet>
+                <title>ICCL || Products</title>
+            </Helmet>
             <motion.div
             variants={fadeIn("up", 0.8)}
             initial ="hidden"

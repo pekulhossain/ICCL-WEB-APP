@@ -8,6 +8,8 @@ import 'swiper/css/navigation';
 import { useEffect, useState } from "react";
 
 import { Autoplay, Navigation } from "swiper/modules";
+import { Helmet } from "react-helmet-async";
+
 
 const Testimonial = () => {
 
@@ -20,6 +22,9 @@ const Testimonial = () => {
 
     return (
         <section className="py-28 bg-slate-100">
+            <Helmet>
+                <title>ICCL || Testimonials</title>
+            </Helmet>
             <SectionTitle subHeading={"WHAT PEOPLE SAY ABOUT US"}
                 heading={"Our Testimonial"}
                 Paragraph={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}>

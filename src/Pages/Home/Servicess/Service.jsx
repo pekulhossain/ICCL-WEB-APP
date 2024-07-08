@@ -3,12 +3,16 @@ import knittingimg from '../../../assets/Services/knitting.JPG';
 import dyeingimg from '../../../assets/Services/dyeing.JPG';
 import printing from '../../../assets/Services/printing.JPG';
 import Counter from '../../../Counteranimation/Counter';
+import { Helmet } from "react-helmet-async";
 // import embroidaryimg from '../../../assets/Services/emborydary.JPG';
 // import garmentimg from '../../../assets/Services/garment.JPG';
 // import aopimg from '../../../assets/Services/aop.JPG';
 const Service = () => {
     return (
         <section className="py-28">
+            <Helmet>
+                <title>ICCL || Services</title>
+            </Helmet>
             <SectionTitle subHeading={'WHAT WE DO'}
                 heading={'Our Services'}>
 

@@ -4,11 +4,15 @@ import { IoMdMail } from "react-icons/io";
 import { IoCall } from "react-icons/io5";
 import { FaFax } from "react-icons/fa";
 import ContactForm from "./ContactForm";
+import { Helmet } from "react-helmet-async";
 
 
 const Contact = () => {
     return (
         <section className="py-28 mb-12 px-2 bg-slate-100">
+            <Helmet>
+                <title>ICCL || Contact-Us</title>
+            </Helmet>
             <SectionTitle subHeading={"GET IN TOUCH"}
                 heading={"Let's Contact Us"}
                 Paragraph={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}>
@@ -33,6 +37,9 @@ const Contact = () => {
                         </p>
                     </div>
                 </div>
+                <Helmet>
+                    <title>ICCL || Contact-Us</title>
+                </Helmet>
                 <div className="card w-72 bg-white h-52 shadow-2xl">
                     <div className="card-body justify-center place-items-center">
                         <IoCall className="text-4xl text-pink-500"></IoCall>
