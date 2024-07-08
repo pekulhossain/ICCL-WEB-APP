@@ -14,7 +14,7 @@ const Service = () => {
 
             </SectionTitle>
 
-            <div className=" my-16 items-center justify-items-center grid gap-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+            <div className="items-center justify-items-center grid gap-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
                 <div className="card transform hover:bg-pink-500 hover:text-white trasition duration-500 hover:scale-105 w-96 bg-base-100 shadow-xl">
                     <figure><img src={knittingimg} alt="" /></figure>
                     <div className="card-body">

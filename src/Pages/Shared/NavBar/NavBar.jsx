@@ -2,13 +2,16 @@ import { NavLink } from 'react-router-dom';
 import log from '../../../assets/Logo/ICCL.jpg'
 const NavBar = () => {
     const navOptions = <>
-        <li> <NavLink to="#">Home</NavLink></li>
-        <li> <NavLink to="#">About</NavLink></li>
-        <li> <NavLink to="#">Service</NavLink></li>
-        <li> <NavLink>Products</NavLink></li>
-        <li> <NavLink to="#">Testimonial</NavLink></li>
-        <li> <NavLink>Contact</NavLink></li>
-        </>
+        <div className="flex gap-2 justify-center items-center text-center text-xl">
+            <li> <NavLink to="/">Home</NavLink></li>
+            <li> <NavLink to="/about">About</NavLink></li>
+            <li> <NavLink to="/service">Service</NavLink></li>
+            <li> <NavLink to="/products">Products</NavLink></li>
+            <li> <NavLink to="/testimonials">Testimonial</NavLink></li>
+            <li> <NavLink to="/contact">Contact</NavLink></li>
+        </div>
+
+    </>
     return (
         <>
             <div className="navbar fixed z-20 bg-opacity-50 max-w-screen-xl bg-black text-white">
@@ -24,8 +27,8 @@ const NavBar = () => {
                         </ul>
                     </div>
                     <a className="btn btn-ghost text-xl"><div>
-                <img src={log} />
-            </div></a>
+                        <img src={log} />
+                    </div></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
