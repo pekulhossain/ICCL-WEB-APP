@@ -18,8 +18,6 @@ import Banner2 from "../Banner/Banner2";
 // import Navbar2 from "../../Shared/NavBar/Navbar2";
 
 
-
-
 const Home = () => {
     return (
         <div>
