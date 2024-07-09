@@ -2,12 +2,12 @@ import { NavLink } from 'react-router-dom';
 import log from '../../../assets/Logo/ICCL.jpg'
 const NavBar = () => {
     const navOptions = <>
-        <div className="flex gap-2 justify-center items-center text-center text-xl">
+        <div className="flex gap-2 justify-center items-center text-center text-l">
             <li> <NavLink to="/">Home</NavLink></li>
-            <li> <NavLink to="/about">About</NavLink></li>
+            <li> <NavLink to="/about2">About</NavLink></li>
             <li> <NavLink to="/service">Service</NavLink></li>
             <li> <NavLink to="/products">Products</NavLink></li>
-            <li> <NavLink to="/testimonials">Testimonial</NavLink></li>
+            <li> <NavLink to="/testimonial">Testimonial</NavLink></li>
             <li> <NavLink to="/contact">Contact</NavLink></li>
         </div>
 

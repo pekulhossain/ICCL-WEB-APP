@@ -15,6 +15,7 @@ const Banner2 = () => {
         {
           loop: true,
         },
+        
         [
           (slider) => {
             let timeout
