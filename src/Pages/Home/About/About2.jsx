@@ -2,6 +2,8 @@ import { TbSquareRotatedFilled } from "react-icons/tb";
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 import awardImg from "../../../assets/About/award.JPG";
 import { Helmet } from "react-helmet-async";
+import ComGrouth from "./ComGrouth";
+
 const About2 = () => {
     return (
         <section className="py-28">
@@ -67,6 +69,7 @@ const About2 = () => {
                    <img className="" src={awardImg} alt="" />
                     </div>
                 </section>
+                <ComGrouth></ComGrouth>
         </section>
     );
 };

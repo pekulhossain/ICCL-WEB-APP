@@ -6,7 +6,7 @@ import aboutimg4 from "../../../assets/About/4.jpg";
 import { motion } from 'framer-motion';
 //variants
 import { fadeIn } from '../../../FramerMotion/variants'
-import { Helmet } from "react-helmet-async";
+
 
 const About = () => {
     return (
