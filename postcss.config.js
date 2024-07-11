@@ -3,7 +3,5 @@ export default {
     tailwindcss: {},
     autoprefixer: {},
   },
-  devServer: {
-    historyApiFallback: true
-  },
+  
 }
