@@ -4,6 +4,6 @@ export default {
     autoprefixer: {},
   },
   devServer: {
-    bonjour: true,
+    historyApiFallback: true
   },
 }
