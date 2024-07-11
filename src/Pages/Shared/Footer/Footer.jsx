@@ -21,7 +21,7 @@ const Footer = () => {
                         Joydebpur, Gazipur, Bangladesh
                     </address>
                 </div>
-                <nav className="flex-1">
+                <div className="flex-1">
                     <header className="footer-title uppercase">Quick menu</header>
 
 
@@ -29,12 +29,12 @@ const Footer = () => {
                         <ul className="gap-8">
                             <div className="flex gap-2 justify-start items-center">
                                 <FaSquare className="text-[8px]"></FaSquare>
-                                <li><NavLink to={"/"}>Home</NavLink></li>
+                                <li><NavLink to={"#"}>Home</NavLink></li>
                             </div>
 
                             <div className="flex mt-4 gap-2 justify-start items-center">
                                 <FaSquare className="text-[8px]"></FaSquare>
-                                <li><NavLink to={"/"}>About</NavLink></li>
+                                <li><NavLink to={"#"}>About</NavLink></li>
                             </div>
 
 
@@ -45,14 +45,14 @@ const Footer = () => {
 
                             <div className="flex mt-4 gap-2 justify-start items-center">
                                 <FaSquare className="text-[8px]"></FaSquare>
-                                <li><NavLink to={"#"}>Contact</NavLink></li>
+                                <li><NavLink to={""}>Contact</NavLink></li>
                             </div>
 
 
                         </ul>
                     </div>
-                </nav>
-                <nav>
+                </div>
+                <div>
                     <header className="footer-title"> ICCL</header>
 
                     <div>
@@ -64,8 +64,8 @@ const Footer = () => {
                             display="block"
                             position="relative" />
                     </div>
-                </nav>
-                <nav>
+                </div>
+                <div>
                     <header className="footer-title"> Follow Us</header>
                     <p className=""> Join us on social media</p>
                     <div className="grid text-2xl grid-flow-col gap-4">
@@ -75,7 +75,7 @@ const Footer = () => {
                         <a href=""><FaLinkedin></FaLinkedin></a>
 
                     </div>
-                </nav>
+                </div>
 
             </div>
             <div className=" p-4 footer-center bg-slate-600 text-base-content">
