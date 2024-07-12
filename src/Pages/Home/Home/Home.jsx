@@ -13,6 +13,7 @@ import Whchoose from "../whychoose/Whchoose";
 import Clients from "./Cutomers/Clients";
 import Testimonial from "./Testimonial/Testimonial";
 import Banner2 from "../Banner/Banner2";
+import Menu from "../../../Menu/Menu";
 
 
 // import Navbar2 from "../../Shared/NavBar/Navbar2";
@@ -36,6 +37,7 @@ const Home = () => {
             <Makeorder></Makeorder>
             <Clients></Clients>
             <Contact></Contact>
+            <Menu></Menu>
            <Helmet>
                 <title>ICCL || Home</title>
             </Helmet>
