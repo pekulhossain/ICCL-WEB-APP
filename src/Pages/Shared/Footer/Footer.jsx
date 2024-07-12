@@ -5,7 +5,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaSquareTwitter } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
-import Iframe from "react-iframe";
+import  FooterSlider from "./FooterSlider";
 
 
 const Footer = () => {
@@ -56,10 +56,7 @@ const Footer = () => {
                 <div>
                     <header className="footer-title"> ICCL</header>
                     <div>
-                        <Iframe
-                            src="https://www.google.com/maps/place/%E0%A6%86%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%95+%E0%A6%95%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%B8%E0%A6%BF%E0%A6%95+%E0%A6%95%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8B%E0%A6%9C%E0%A6%BF%E0%A6%9F+%E0%A6%B2%E0%A6%BF%E0%A6%AE%E0%A6%BF%E0%A6%9F%E0%A7%87%E0%A6%A1/@23.9911096,90.3561116,15z/data=!4m14!1m7!3m6!1s0x3755dc8d329a92e3:0x7316dd31f887236b!2z4KaG4Kao4KeN4Kak4Kaw4KeN4Kac4Ka-4Kak4Ka_4KaVIOCmleCnjeCmsuCmvuCmuOCmv-CmlSDgppXgpq7gp43gpqrgp4vgppzgpr_gpp8g4Kay4Ka_4Kau4Ka_4Kaf4KeH4Kah!8m2!3d23.9911096!4d90.3561116!16s%2Fg%2F11c44g5r89!3m5!1s0x3755dc8d329a92e3:0x7316dd31f887236b!8m2!3d23.9911096!4d90.3561116!16s%2Fg%2F11c44g5r89?entry=ttu"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
-                        </Iframe>
+                        <FooterSlider></FooterSlider>
                     </div>
                 </div>
                 <div>
