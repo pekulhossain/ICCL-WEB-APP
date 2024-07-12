@@ -32,14 +32,16 @@ const FooterSlider = () => {
     })
 
     return (
-        <div ref={sliderRef} className="keen-slider w-14">
-            <div className="keen-slider__slide number-slide1"><img src={footimg1} alt="" /></div>
-            <div className="keen-slider__slide number-slide1"><img src={footimg2} alt="" /></div>
-            <div className="keen-slider__slide number-slide1"><img src={footimg3} alt="" /></div>
-            <div className="keen-slider__slide number-slide1"><img src={footimg4} alt="" /></div>
-            <div className="keen-slider__slide number-slide1"><img src={footimg5} alt="" /></div>
+        <div className=" w-52">
+            <div ref={sliderRef} className="keen-slider">
+            <div className="keen-slider__slide number-slide1 "><img src={footimg1} alt="" /></div>
+            <div className="keen-slider__slide number-slide1 "><img src={footimg2} alt="" /></div>
+            <div className="keen-slider__slide number-slide1 "><img src={footimg3} alt="" /></div>
+            <div className="keen-slider__slide number-slide1 "><img src={footimg4} alt="" /></div>
+            <div className="keen-slider__slide number-slide1 "><img src={footimg5} alt="" /></div>
 
 
+        </div>
         </div>
     );
 };
