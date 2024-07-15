@@ -7,6 +7,7 @@ import ContactForm from "./ContactForm";
 import { Helmet } from "react-helmet-async";
 
 
+
 const Contact = () => {
     return (
         <section className="py-28 mb-12 px-2 bg-slate-100">
