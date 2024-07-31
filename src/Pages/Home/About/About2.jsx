@@ -72,8 +72,6 @@ const About2 = () => {
                 </div>
             </section>
             <ComGrouth></ComGrouth>
-            <Certification></Certification>
-            <SisterConcern></SisterConcern>
         </section>
     );
 };
