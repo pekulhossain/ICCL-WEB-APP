@@ -78,7 +78,7 @@ const TopBar = () => {
             <NavLink to="/"><li className=''><a>Home</a></li></NavLink>
             <div className="dropdown dropdown-hover">
               <ul>
-              <NavLink><li tabIndex={0} role="" className=""><a>About ICCL</a></li></NavLink>
+              <li tabIndex={0} role="" className=""><a>About ICCL</a></li>
               </ul>
               <ul tabIndex={0} className="dropdown-content menu bg-pink-500 rounded-box z-[1] w-52 p-2 shadow">
                <NavLink to="/about2"> <li className=''><a>About Us</a></li></NavLink>
