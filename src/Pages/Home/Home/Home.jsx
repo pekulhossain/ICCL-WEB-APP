@@ -16,13 +16,9 @@ import Banner2 from "../Banner/Banner2";
 
 
 
-// import Navbar2 from "../../Shared/NavBar/Navbar2";
-
-
 const Home = () => {
     return (
         <div>
-
             <Banner2></Banner2>
             <Feature></Feature>
             <About></About>
@@ -37,7 +33,7 @@ const Home = () => {
             <Makeorder></Makeorder>
             <Clients></Clients>
             <Contact></Contact>
-           <Helmet>
+            <Helmet>
                 <title>ICCL || Home</title>
             </Helmet>
         </div>

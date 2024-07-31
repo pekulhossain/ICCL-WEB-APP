@@ -24,7 +24,7 @@ const Feature = () => {
 
             <div className="grid items-center justify-items-center gap-4 md:grid-cols-2 lg:grid-cols-3 mt-8 pt-12 pb-16">
                     <motion.div
-                     variants={fadeIn("right", 0.6)}
+                     variants={fadeIn("right", )}
                      initial ="hidden"
                      whileInView={"show"}
                      viewport={{once:false, amount: 0.7}}
@@ -52,7 +52,7 @@ const Feature = () => {
                         </div>
                     </motion.div>
                     <motion.div 
-                     variants={fadeIn("left", 0.6)}
+                     variants={fadeIn("left",)}
                      initial ="hidden"
                      whileInView={"show"}
                      viewport={{once:false, amount: 0.7}}

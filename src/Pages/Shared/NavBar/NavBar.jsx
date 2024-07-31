@@ -1,8 +1,9 @@
 import { NavLink } from 'react-router-dom';
 import log from '../../../assets/Logo/ICCL.jpg'
+import Dropdownmenu from '../../../Menu/Dropdownmenu';
 const NavBar = () => {
     const navOptions = <>
-        <div className="flex gap-2 justify-center items-center text-center text-l">
+         <div className="flex gap-2 justify-center items-center text-center text-l">
             <li> <NavLink to="/">Home</NavLink></li>
             <li> <NavLink to="/about2">About</NavLink></li>
             <li> <NavLink to="/service">Service</NavLink></li>
@@ -21,9 +22,9 @@ const NavBar = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </div>
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            {
-                                navOptions
-                            }
+                            
+                                <Dropdownmenu></Dropdownmenu>
+                            
                         </ul>
                     </div>
                     <a href="/" className="btn btn-ghost text-xl"><div>
@@ -32,9 +33,10 @@ const NavBar = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        {
-                            navOptions
-                        }
+                        
+                            <Dropdownmenu></Dropdownmenu>
+
+                        
                     </ul>
                 </div>
                 {/* <div className="navbar-end">

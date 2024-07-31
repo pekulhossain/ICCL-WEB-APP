@@ -1,0 +1,36 @@
+
+
+    #top-socials {
+       
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+           
+
+            a {
+                color: white;
+                font-size: 16px;
+            }
+
+        
+    }
+
+    #contact_info{
+       
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+       
+
+        a {
+            color: white;
+            font-size: 16px;
+        }
+
+    
+}
+

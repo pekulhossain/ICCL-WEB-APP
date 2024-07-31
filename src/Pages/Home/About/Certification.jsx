@@ -4,7 +4,7 @@ import CertificationSlider from "./CertificationSlider";
 
 const Certification = () => {
     return (
-        <section>
+        <section className="py-28">
             <SectionTitle
                 subHeading="Certification"
             ></SectionTitle>

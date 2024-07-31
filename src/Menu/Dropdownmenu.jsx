@@ -1,30 +1,23 @@
-import ButtonGroup from 'react-bootstrap/ButtonGroup';
-import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
+import { NavLink } from "react-router-dom";
 
 const Dropdownmenu = () => {
     return (
-        <>
-            {['Primary', 'Secondary', 'Success', 'Info', 'Warning', 'Danger'].map(
-                (variant) => (
-                    <DropdownButton
-                        as={ButtonGroup}
-                        key={variant}
-                        id={`dropdown-variants-${variant}`}
-                        variant={variant.toLowerCase()}
-                        title={variant}
-                    >
-                        <Dropdown.Item eventKey="1">Action</Dropdown.Item>
-                        <Dropdown.Item eventKey="2">Another action</Dropdown.Item>
-                        <Dropdown.Item eventKey="3" active>
-                            Active Item
-                        </Dropdown.Item>
-                        <Dropdown.Divider />
-                        <Dropdown.Item eventKey="4">Separated link</Dropdown.Item>
-                    </DropdownButton>
-                ),
-            )}
-        </>
+        <div className="m-1">
+            <div tabIndex={0} role="button" className="btn ">Home</div>
+            <div className="dropdown dropdown-hover text-black">
+                <div tabIndex={0} role="button" className="btn m-1">About</div>
+                <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-4 shadow">
+                    <li><NavLink to="/about2">About Us</NavLink></li>
+                    <li><a>Certification</a></li>
+                    <li><a>Sister Concern</a></li>
+                </ul>
+            </div>
+            <div tabIndex={0} role="button" className="btn m-1">Services</div>
+            <div tabIndex={0} role="button" className="btn m-1">Products</div>
+            <div tabIndex={0} role="button" className="btn m-1">Testimonials</div>
+            <div tabIndex={0} role="button" className="btn m-1">Contact</div>
+
+        </div>
     );
 };
 

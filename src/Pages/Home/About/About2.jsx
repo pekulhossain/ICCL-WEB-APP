@@ -4,6 +4,7 @@ import awardImg from "../../../assets/About/award.JPG";
 import { Helmet } from "react-helmet-async";
 import ComGrouth from "./ComGrouth";
 import Certification from "./Certification";
+import SisterConcern from "./SisterConcern";
 
 const About2 = () => {
     return (
@@ -72,6 +73,7 @@ const About2 = () => {
             </section>
             <ComGrouth></ComGrouth>
             <Certification></Certification>
+            <SisterConcern></SisterConcern>
         </section>
     );
 };

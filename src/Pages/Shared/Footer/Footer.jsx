@@ -6,6 +6,7 @@ import { FaSquareTwitter } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 import  FooterSlider from "./FooterSlider";
+// import ScrollToTop from "react-scroll-to-top";
 
 
 const Footer = () => {
