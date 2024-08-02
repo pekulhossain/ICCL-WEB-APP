@@ -1,23 +1,20 @@
-
 import React from "react";
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 import './progress.css';
 import proimg from '../../../assets/progress/1.jpg';
 
-
 const Progress = () => {
 
-    const Progresss = ({done}) => {
+    const ProgressBar = ({ done }) => {
         const [style, setStyle] = React.useState({});
         
-        setTimeout(() => {
+        React.useEffect(() => {
             const newStyle = {
                 opacity: 1,
                 width: `${done}%`
-            }
-            
+            };
             setStyle(newStyle);
-        }, 200);
+        }, [done]);
         
         return (
             <div className="progress">
@@ -25,29 +22,30 @@ const Progress = () => {
                     {done}%
                 </div>
             </div>
-        )
-    }
+        );
+    };
 
     return (
-        <div className="flex mt-12 my-14">
-            <div className=" flex-1 bg-pink-500 text-white px-2 pt-0">
-                <SectionTitle subHeading={"WE ARE AWESOME"}
+        <div className="flex flex-col lg:flex-row mt-12 my-14">
+            <div className="flex-1 bg-pink-500 text-white px-2 pt-0 mb-8 lg:mb-0">
+                <SectionTitle 
+                    subHeading={"WE ARE AWESOME"}
                     heading={"Some Of Our Business Skills"}
-                    Paragraph={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}>
-                </SectionTitle>
+                    Paragraph={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}
+                />
                 <div className="">
-                    <p className="pb[5px] font-semibold">Branding</p>
-                    <Progresss done="100"/>
-                    <p className="pb[5px] font-semibold">Marketing</p>
-                    <Progresss done="95"/>
-                    <p className="pb[5px] font-semibold">Sewing</p>
-                    <Progresss done="90"/>
-                    <p className="pb[5px] font-semibold">On Time Shipment</p>
-                    <Progresss done="90"/>
+                    <p className="pb-[5px] font-semibold">Branding</p>
+                    <ProgressBar done="100"/>
+                    <p className="pb-[5px] font-semibold">Marketing</p>
+                    <ProgressBar done="95"/>
+                    <p className="pb-[5px] font-semibold">Sewing</p>
+                    <ProgressBar done="90"/>
+                    <p className="pb-[5px] font-semibold">On Time Shipment</p>
+                    <ProgressBar done="90"/>
                 </div>
             </div>
             <div className="flex-1">
-                <img src={proimg} alt="" />
+                <img className="w-full h-full object-cover" src={proimg} alt="" />
             </div>
         </div>
     );
