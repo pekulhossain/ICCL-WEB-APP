@@ -29,6 +29,7 @@ const TopBar = () => {
 
   return (
     <>
+    {!isMobile && (
       <div id="contact_info" className="topbar h-8 flex justify-between bg-slate-600 text-white">
         <div className="contact-info pl-8 flex items-center space-x-4">
           <a href="tel:+09028464066" className="flex items-center">
@@ -52,7 +53,7 @@ const TopBar = () => {
           <a href="" className="text-xl pr-8"><FaWhatsapp /></a>
         </div>
       </div>
-
+    )}
       <div className={`navbar sticky z-20 top-0 w-full bg-pink-500 transition-all duration-300 ${isScrolled ? 'py-2' : 'py-4'}`}>
         <div className="navbar-start">
           {isMobile && (
