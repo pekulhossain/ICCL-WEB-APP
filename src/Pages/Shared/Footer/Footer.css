@@ -1,0 +1,14 @@
+
+  
+  /* On screens that are 600px wide or less, the background color is olive */
+  @media screen and (max-width: 400px) {
+    #office_address {
+      align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    #social_media {
+        align-items: center;
+    }
+  }

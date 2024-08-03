@@ -4,13 +4,14 @@ import { FaSquareTwitter } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io";
 import iccllogo from '../../../assets/Logo/ICCL2.jpg';
 import Iframe from "./Iframe";
+import'./Footer.css';
 
 const Footer = () => {
     return (
         <footer>
             <div className="bg-neutral text-white py-12 px-4">
                 <div className="grid gap-8 lg:grid-cols-4 md:grid-cols-2 align-middle sm:grid-cols-1">
-                    <div className="flex flex-col items-start sm:items-center">
+                    <div id="office_address" className="flex flex-col items-start">
                         <img src={iccllogo} alt="ICCL Logo" className="w-32 h-auto" />
                         <h4 className="footer-title mt-4 border-b-2 border-white">Factory Office:</h4>
                         <address className="mt-2">
@@ -19,7 +20,7 @@ const Footer = () => {
                             Joydebpur, Gazipur, Bangladesh
                         </address>
                     </div>
-                    <div className="flex flex-col items-start sm:items-center">
+                    <div id="social_media" className="flex flex-col items-start">
                         <h4 className="footer-title uppercase border-b-2 border-white">Quick Menu</h4>
                         <ul className="mt-4 space-y-4">
                             <li className="flex items-center gap-2">
