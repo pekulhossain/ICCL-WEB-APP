@@ -8,9 +8,9 @@ import Iframe from "./Iframe";
 const Footer = () => {
     return (
         <footer>
-            <div className="bg-neutral text-white py-12 px-4 lg:py-16 lg:px-12">
-                <div className="grid gap-8 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
-                    <div className="flex flex-col items-start">
+            <div className="bg-neutral text-white py-12 px-4">
+                <div className="grid gap-8 lg:grid-cols-4 md:grid-cols-2 align-middle sm:grid-cols-1">
+                    <div className="flex flex-col items-start sm:items-center">
                         <img src={iccllogo} alt="ICCL Logo" className="w-32 h-auto" />
                         <h4 className="footer-title mt-4 border-b-2 border-white">Factory Office:</h4>
                         <address className="mt-2">
@@ -19,7 +19,7 @@ const Footer = () => {
                             Joydebpur, Gazipur, Bangladesh
                         </address>
                     </div>
-                    <div className="flex flex-col items-start">
+                    <div className="flex flex-col items-start sm:items-center">
                         <h4 className="footer-title uppercase border-b-2 border-white">Quick Menu</h4>
                         <ul className="mt-4 space-y-4">
                             <li className="flex items-center gap-2">
@@ -40,13 +40,13 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="flex flex-col items-start">
+                    <div className="flex flex-col items-start sm:items-center">
                         <h4 className="footer-title border-b-2 border-white">ICCL</h4>
                         <div className="mt-4">
                             <Iframe />
                         </div>
                     </div>
-                    <div className="flex flex-col items-end">
+                    <div className="flex flex-col items-end sm:items-center">
                         <h4 className="footer-title border-b-2 border-white">Follow Us</h4>
                         <p className="mt-2">Join us on social media</p>
                         <div className="mt-4 flex space-x-4 text-2xl">
