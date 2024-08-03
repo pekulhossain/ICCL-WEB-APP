@@ -8,7 +8,23 @@
   }
 
   @media screen and (max-width: 400px) {
-    #social_media {
+    #quick_menus {
         align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    #google_mapp {
+        align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    #Social_mediass {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        justify-items: center;
+        
     }
   }

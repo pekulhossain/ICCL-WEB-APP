@@ -4,11 +4,11 @@ import { FaSquareTwitter } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io";
 import iccllogo from '../../../assets/Logo/ICCL2.jpg';
 import Iframe from "./Iframe";
-import'./Footer.css';
+import './Footer.css';
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className="responsive-component">
             <div className="bg-neutral text-white py-12 px-4">
                 <div className="grid gap-8 lg:grid-cols-4 md:grid-cols-2 align-middle sm:grid-cols-1">
                     <div id="office_address" className="flex flex-col items-start">
@@ -20,7 +20,7 @@ const Footer = () => {
                             Joydebpur, Gazipur, Bangladesh
                         </address>
                     </div>
-                    <div id="social_media" className="flex flex-col items-start">
+                    <div id="quick_menus" className="flex flex-col items-start">
                         <h4 className="footer-title uppercase border-b-2 border-white">Quick Menu</h4>
                         <ul className="mt-4 space-y-4">
                             <li className="flex items-center gap-2">
@@ -41,13 +41,13 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="flex flex-col items-start sm:items-center">
+                    <div id="google_mapp" className="flex flex-col items-start">
                         <h4 className="footer-title border-b-2 border-white">ICCL</h4>
                         <div className="mt-4">
                             <Iframe />
                         </div>
                     </div>
-                    <div className="flex flex-col items-end sm:items-center">
+                    <div id="Social_mediass" className="flex flex-col items-end">
                         <h4 className="footer-title border-b-2 border-white">Follow Us</h4>
                         <p className="mt-2">Join us on social media</p>
                         <div className="mt-4 flex space-x-4 text-2xl">
@@ -55,8 +55,9 @@ const Footer = () => {
                             <a href="https://www.linkedin.com/company/international-classic-composite-ltd/?originalSubdomain=bd" className="bg-pink-500 p-2 rounded-full" target="_blank"><FaLinkedin /></a>
                             <a href="#" className="bg-pink-500 p-2 rounded-full"><FaSquareTwitter /></a>
                             <a href="#" className="bg-pink-500 p-2 rounded-full"><IoLogoYoutube /></a>
-                           
-                        </div> 
+
+                        </div>
+
                     </div>
                 </div>
             </div>
