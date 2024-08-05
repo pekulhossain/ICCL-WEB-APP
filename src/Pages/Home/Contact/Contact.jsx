@@ -1,4 +1,4 @@
-import React from "react";
+
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 import { FaLocationDot, FaFax } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
@@ -13,9 +13,11 @@ const Contact = () => {
                 <title>ICCL || Contact-Us</title>
             </Helmet>
             <SectionTitle subHeading={"GET IN TOUCH"}
-                heading={"Let's Contact Us"}
-                Paragraph={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}>
+                heading={"Let's Contact Us"}>
             </SectionTitle>
+            <div className="pb-4">
+                <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
             <div className="grid mt-4 items-center justify-items-center gap-4 md:grid-cols-2 lg:grid-cols-4 sm:grid-cols-1 pb-8">
                 <div className="card w-full max-w-xs bg-white h-52 shadow-2xl p-4">
                     <div className="card-body flex flex-col items-center text-center">

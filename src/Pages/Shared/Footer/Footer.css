@@ -1,25 +1,25 @@
 
   
   /* On screens that are 600px wide or less, the background color is olive */
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 600px) {
     #office_address {
       align-items: center;
     }
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 600px) {
     #quick_menus {
         align-items: center;
     }
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 600px) {
     #google_mapp {
         align-items: center;
     }
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 600px) {
     #Social_mediass {
         display: flex;
         align-items: center;

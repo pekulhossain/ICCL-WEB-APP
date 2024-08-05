@@ -43,7 +43,7 @@ const Footer = () => {
                     </div>
                     <div id="google_mapp" className="flex flex-col items-start">
                         <h4 className="footer-title border-b-2 border-white">ICCL</h4>
-                        <div className="mt-4">
+                        <div className="w-auto">
                             <Iframe />
                         </div>
                     </div>
@@ -55,9 +55,7 @@ const Footer = () => {
                             <a href="https://www.linkedin.com/company/international-classic-composite-ltd/?originalSubdomain=bd" className="bg-pink-500 p-2 rounded-full" target="_blank"><FaLinkedin /></a>
                             <a href="#" className="bg-pink-500 p-2 rounded-full"><FaSquareTwitter /></a>
                             <a href="#" className="bg-pink-500 p-2 rounded-full"><IoLogoYoutube /></a>
-
                         </div>
-
                     </div>
                 </div>
             </div>
