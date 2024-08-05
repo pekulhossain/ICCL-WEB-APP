@@ -33,39 +33,39 @@ const TopBar = () => {
   return (
     <>
       {!isMobile && (
-        <div id="contact_info" className="topbar h-8 flex justify-between bg-slate-600 text-white">
+        <div id="contact_info" className="topbar h-8 flex justify-between bg-slate-100 ">
           <div className="contact-info pl-8 flex items-center space-x-4">
             <a href="tel:+09028464066" className="flex items-center">
-              <span className="pl-2">Have Any Question?</span>
+              <span className="pl-2 text-black">Have Any Question?</span>
             </a>
             <a href="tel:+021123456789" className="flex items-center">
-              <MdAddCall />
-              <span className="pl-2">01735-231302</span>
+              <MdAddCall className='text-pink-500' />
+              <span className="pl-2 text-black">01735-231302</span>
             </a>
             <span className="hidden md:flex items-center pl-4">
-              <IoIosMail />
+              <IoIosMail className='text-pink-500' />
               <span className="pl-2">pekul.erp@icclbd.com</span>
             </span>
           </div>
           <div id='top-socials' className="md:flex items-center space-x-4">
-            <a href="https://web.facebook.com/profile.php?id=2002321963131829&paipv=0&eav=AfZlWkTLD5YnY6sFfN-jmUs1z54a6b5spG7f3s9vjMRVSd4xWnomP0byHlNGgwsrSRE&_rdc=1&_rdr" className="text-xl" target="_blank"><FaFacebook /></a>
-            <a href="https://www.linkedin.com/company/international-classic-composite-ltd/?originalSubdomain=bd" target="_blank" className="text-xl"><FaLinkedinIn /></a>
-            <a href="" className="text-xl"><FaYoutube /></a>
-            <a href="" className="text-xl pr-8"><FaWhatsapp /></a>
+            <a href="https://web.facebook.com/profile.php?id=2002321963131829&paipv=0&eav=AfZlWkTLD5YnY6sFfN-jmUs1z54a6b5spG7f3s9vjMRVSd4xWnomP0byHlNGgwsrSRE&_rdc=1&_rdr" className="text-xl" target="_blank"><FaFacebook className='text-pink-500' /></a>
+            <a href="https://www.linkedin.com/company/international-classic-composite-ltd/?originalSubdomain=bd" target="_blank" className="text-xl"><FaLinkedinIn className='text-pink-500' /></a>
+            <a href="" className="text-xl"><FaYoutube className='text-pink-500' /></a>
+            <a href="" className="text-xl pr-8"><FaWhatsapp className='text-pink-500' /></a>
           </div>
         </div>
       )}
-      <div className={`navbar sticky z-20 top-0 w-full bg-pink-500 transition-all duration-300 ${isScrolled ? 'py-2' : 'py-4'}`}>
+      <div className={`navbar sticky z-20 top-0 w-full bg-slate-500 transition-all duration 300 ${isScrolled ? 'py-2' : 'py-4'}`}>
         <div className="navbar-start">
           {isMobile && (
             <div className="dropdown">
               <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden" onClick={toggleMenu}>
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
                 </svg>
               </div>
               {menuOpen && (
-                <ul tabIndex={0} className="menu menu-sm dropdown-content bg-pink-500 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                <ul tabIndex={0} className="menu menu-sm dropdown-content bg-slate-500 text-white rounded-box z-[1] mt-3 w-52 p-2 shadow">
                   <li className=''><NavLink to="/">Home</NavLink></li>
                   <li>
                     <NavLink to="#" className="">About ICCL</NavLink>
@@ -93,7 +93,7 @@ const TopBar = () => {
                 <NavLink to="#">
                   <li><a>About ICCL</a></li>
                 </NavLink>
-                <ul className="dropdown-content absolute hidden group-hover:block bg-pink-500 rounded-box z-[1] w-52 p-2 shadow">
+                <ul className="dropdown-content absolute hidden group-hover:block bg-slate-500 rounded-box z-[1] w-52 p-2 shadow">
                   <NavLink to="/about2"><li><a>About Us</a></li></NavLink>
                   <NavLink to="/Certification"><li><a>Certification</a></li></NavLink>
                   <NavLink to="/SisterConcern"><li><a>Sister Concern</a></li></NavLink>

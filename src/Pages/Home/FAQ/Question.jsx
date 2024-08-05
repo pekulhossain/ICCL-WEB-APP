@@ -6,9 +6,10 @@ const Question = () => {
         <section className="py-8 my-16 bg-slate-100">
             <SectionTitle
                 subHeading={"FAQ"}
-                heading={"Frequently Asked Questions"}
-                Paragraph={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}
-            />
+                heading={"Frequently Asked Questions"}/>
+                <div>
+                    <p className="text-center mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, explicabo.</p>
+                </div>
 
             <div className="flex flex-col lg:flex-row gap-8">
                 <div className="flex-1">

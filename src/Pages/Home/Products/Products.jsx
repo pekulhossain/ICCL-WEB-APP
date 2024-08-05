@@ -21,9 +21,11 @@ const Products = () => {
             viewport={{once:false, amount: 0.7}}
             >
                 <SectionTitle subHeading={"Our Products"}
-                    heading={"List of our products"}
-                    Paragraph={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}>
+                    heading={"List of our products"}>
                 </SectionTitle>
+                <div>
+                    <p className="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, ipsum!</p>
+                </div>
             </motion.div>
 
             <Mensitems></Mensitems>

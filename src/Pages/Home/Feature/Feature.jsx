@@ -17,9 +17,11 @@ const Feature = () => {
              viewport={{once:false, amount: 0.7}}
             >
             <SectionTitle subHeading={"Our Features"}
-                heading={"We Always Try To Understand Users Expectation"}
-                Paragraph={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua."}>
+                heading={"We Always Try To Understand Users Expectation"}>
             </SectionTitle>
+            <div>
+                <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, asperiores.</p>
+            </div>
             </motion.div>
 
             <div className="grid items-center justify-items-center gap-4 md:grid-cols-2 lg:grid-cols-3 mt-8 pt-12 pb-16">
@@ -48,7 +50,7 @@ const Feature = () => {
                                 <GiSewingMachine className=" flex justify-items-center  items-center  items-center text-pink-500 text-7xl align-middle"></GiSewingMachine>
                             </div>
                             <h2 className="card-title ">ACCLAIMED CLIENTS</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, reiciendis!</p>
+                            <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, reiciendis!</p>
                         </div>
                     </motion.div>
                     <motion.div 

@@ -26,9 +26,11 @@ const Testimonial = () => {
                 <title>ICCL || Testimonials</title>
             </Helmet>
             <SectionTitle subHeading={"WHAT PEOPLE SAY ABOUT US"}
-                heading={"Our Testimonial"}
-                Paragraph={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}>
+                heading={"Our Testimonial"}>
             </SectionTitle>
+            <div>
+                <p className="text-center mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, nemo.</p>
+            </div>
             <Swiper navigation={true}
             speed={1500}
              slidesPerView={2}

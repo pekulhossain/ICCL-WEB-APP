@@ -12,7 +12,7 @@ const About2 = () => {
             </Helmet>
             <SectionTitle subHeading={"About"} />
             
-            <div className="flex flex-col lg:flex-row gap-4 px-4 lg:px-0">
+            <div className="flex mx-4 flex-col lg:flex-row gap-4 px-4 lg:px-0">
                 <div className="lg:w-1/3 h-auto">
                     <h1 className="mb-2 text-2xl text-pink-500">Our Company</h1>
                     <p className="mb-4 text-justify">We are ICCL group and we love what we do. We are located in Bangladesh.</p>
@@ -23,13 +23,13 @@ const About2 = () => {
                     <h1 className="mb-2 text-2xl text-pink-500">Mission</h1>
                     <p className="mb-4 text-justify">Our mission is very clear - provide best effort and services for our customers.</p>
                     <p className="mb-2 text-justify">To satisfy and retain customers through employee involvement, teamwork, personal excellence, and integrating scientific approaches in our quest to become the leading manufacturer of apparel products.</p>
-                    <ul className="ml-8">
+                    <ul className="ml-8 justify-center">
                         {["Be a market leader in the field of value global supplier of RMG.",
                           "Deliver quality fashionable products at affordable prices.",
                           "Be innovative, cost effective and globally competitive.",
                           "Outstrip our customer’s expectations.",
                           "Provide opportunities for growth for our employees."].map((item, index) => (
-                            <li key={index} className="flex items-center pb-2 gap-2">
+                            <li key={index} className="flex justify-center items-center pb-2 gap-2">
                                 <div className="text-pink-500"><TbSquareRotatedFilled /></div>
                                 <div>{item}</div>
                             </li>

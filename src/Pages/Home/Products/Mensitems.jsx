@@ -17,7 +17,7 @@ const [product, setProduct] = useState([]);
             <SectionTitle
                 heading="Mens Items"
             ></SectionTitle>
-            <div className="my-16 items-center justify-items-center grid gap-4 lg:grid-cols-3 md:grid-cols-2 gap-2 sm:grid-cols-1">
+            <div className="my-16 items-center justify-items-center grid gap-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
                 {
                     product.map(item=> <ProductCard
                     key={item.id}

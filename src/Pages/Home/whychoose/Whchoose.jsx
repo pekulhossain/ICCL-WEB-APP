@@ -6,7 +6,7 @@ import { fadeIn } from '../../../FramerMotion/variants'
 
 const Whchoose = () => {
     return (
-        <div className="flex flex-col md:flex-row py-8 mt-12 bg-slate-100 my-14 h-auto md:h-[400px]">
+        <div className="flex flex-col px-4 md:flex-row py-8 mt-12 bg-slate-100 my-14 h-auto md:h-[400px]">
             <div className="flex-1 md:mr-4 mb-8 md:mb-0">
                 <motion.div
                     variants={fadeIn("up", 0.8)}
@@ -20,7 +20,7 @@ const Whchoose = () => {
                         Paragraph={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}
                     />
                 </motion.div>
-                <button className="btn text-white btn-lg relative h-[50px] w-40 transition-all before:absolute before:left-0 before:top-0 before:h-full before:w-0 before:duration-500 after:absolute after:right-0 after:top-0 after:h-full after:w-0 after:duration-500 hover:text-white hover:before:w-2/4 hover:before:bg-black hover:after:w-2/4 hover:after:bg-black bg-pink-500">
+                <button className="btn text-white mt-2 btn-lg relative h-[50px] w-40 transition-all before:absolute before:left-0 before:top-0 before:h-full before:w-0 before:duration-500 after:absolute after:right-0 after:top-0 after:h-full after:w-0 after:duration-500 hover:text-white hover:before:w-2/4 hover:before:bg-black hover:after:w-2/4 hover:after:bg-black bg-pink-500">
                     <span className="relative z-10">Our Products</span>
                 </button>
             </div>

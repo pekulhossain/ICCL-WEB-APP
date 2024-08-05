@@ -4,7 +4,7 @@ import sisterconcernimg from "../../../assets/SisterConcern/1.jpg";
 
 const SisterConcern = () => {
     return (
-        <section className="py-28 bg-slate-100">
+        <section className="py-28 px-4 bg-slate-100">
             <div className="mb-12">
                 <SectionTitle subHeading={"Sister Concern"} heading={""} />
             </div>
