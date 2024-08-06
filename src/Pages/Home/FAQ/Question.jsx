@@ -3,7 +3,7 @@ import FAQimg from '../../../assets/FAQ/1.JPG';
 
 const Question = () => {
     return (
-        <section className="py-8 my-16 bg-slate-100">
+        <section className="py-8 bg-slate-100">
             <SectionTitle
                 subHeading={"FAQ"}
                 heading={"Frequently Asked Questions"}/>

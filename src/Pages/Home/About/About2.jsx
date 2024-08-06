@@ -6,7 +6,7 @@ import ComGrouth from "./ComGrouth";
 
 const About2 = () => {
     return (
-        <section className="py-28">
+        <section className="py-28 bg-white">
             <Helmet>
                 <title>ICCL || About-Us</title>
             </Helmet>
@@ -23,13 +23,13 @@ const About2 = () => {
                     <h1 className="mb-2 text-2xl text-pink-500">Mission</h1>
                     <p className="mb-4 text-justify">Our mission is very clear - provide best effort and services for our customers.</p>
                     <p className="mb-2 text-justify">To satisfy and retain customers through employee involvement, teamwork, personal excellence, and integrating scientific approaches in our quest to become the leading manufacturer of apparel products.</p>
-                    <ul className="ml-8 justify-center">
+                    <ul className="ml-8 items-center">
                         {["Be a market leader in the field of value global supplier of RMG.",
                           "Deliver quality fashionable products at affordable prices.",
                           "Be innovative, cost effective and globally competitive.",
                           "Outstrip our customer’s expectations.",
                           "Provide opportunities for growth for our employees."].map((item, index) => (
-                            <li key={index} className="flex justify-center items-center pb-2 gap-2">
+                            <li key={index} className="flex items-center pb-2 gap-2">
                                 <div className="text-pink-500"><TbSquareRotatedFilled /></div>
                                 <div>{item}</div>
                             </li>
@@ -44,7 +44,7 @@ const About2 = () => {
                 </div>
             </div>
 
-            <section className="flex flex-col lg:flex-row justify-evenly mt-24 gap-4 px-4 lg:px-0">
+            <section className="flex flex-col lg:flex-row justify-evenly mt-24 px-4 lg:px-0">
                 <div className="flex-1 text-center bg-slate-100 p-6 rounded-lg shadow-lg">
                     <h1 className="text-3xl text-pink-500 mb-6">ICCL Premium awards</h1>
                     <p className="mb-4">We have been awarded by national & international reputed organizations.</p>

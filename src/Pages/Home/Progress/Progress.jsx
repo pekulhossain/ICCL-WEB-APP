@@ -23,7 +23,7 @@ const Progress = () => {
         );
     };
     return (
-        <div className="flex flex-col lg:flex-row mt-12 my-14">
+        <div className="flex flex-col lg:flex-row mt-12 my-14 bg-white">
             <div className="flex-1 bg-pink-500 text-white px-4 pt-0 mb-8 lg:mb-0">
                 <SectionTitle 
                     subHeading={"WE ARE AWESOME"}

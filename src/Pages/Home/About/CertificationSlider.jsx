@@ -35,7 +35,7 @@ const CertificationSlider = () => {
     })
 
     return (
-        <div className="">
+        <div className="bg-white">
             <div ref={sliderRef} className="keen-slider">
                 <div className="keen-slider__slide number-slide1 "><img src={CertificationImg1} alt="" /></div>
                 <div className="keen-slider__slide number-slide1 "><img src={CertificationImg2} alt="" /></div>

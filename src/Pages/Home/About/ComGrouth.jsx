@@ -2,7 +2,7 @@ import { FaLayerGroup } from "react-icons/fa";
 import { IoDiscSharp } from "react-icons/io5";
 const ComGrouth = () => {
     return (
-        <section className=" my-16 mx-2">
+        <section className=" my-16 mx-2 bg-white">
             <div className="flex mb-8 justify-center content-center text-center">
                 <FaLayerGroup className="text-5xl text-pink-500"></FaLayerGroup>
             </div>

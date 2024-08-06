@@ -6,7 +6,7 @@ import { fadeIn } from '../FramerMotion/variants'
 
 const BestCompa = () => {
     return (
-        <div className="best-company bg-fixed text-white pt-4 mb-8 h-96">
+        <div className="best-company bg-fixed text-white pt-4 h-96">
             <div className='overlay'>
                 <div className='overlay-content'>
                     <motion.div

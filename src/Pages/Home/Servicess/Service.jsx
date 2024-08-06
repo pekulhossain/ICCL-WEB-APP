@@ -8,7 +8,7 @@ import { Helmet } from "react-helmet-async";
 
 const Service = () => {
     return (
-        <section className="py-28">
+        <section className="py-28 bg-white">
             <Helmet>
                 <title>ICCL || Services</title>
             </Helmet>

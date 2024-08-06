@@ -3,7 +3,7 @@ import Customerslide from "./Customerslide";
 
 const Clients = () => {
     return (
-        <section className="py-8 my-16 bg-slate-100">
+        <section className="py-8 my-16 bg-white">
 
             <SectionTitle subHeading={"TRUSTED CLIENT"}
                 heading={"Our Happy Partners"}>
