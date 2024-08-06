@@ -3,6 +3,7 @@ import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 import awardImg from "../../../assets/About/award.JPG";
 import { Helmet } from "react-helmet-async";
 import ComGrouth from "./ComGrouth";
+import Message from "./Message";
 
 const About2 = () => {
     return (
@@ -43,6 +44,7 @@ const About2 = () => {
                     <p className="mb-2 text-justify">Our Vision To become the leading supplier to our customers by delivering socially, ethically and sustainable manufactured quality products with on time delivery using a highly efficient, Eco-friendly and vertically integrated manufacturing process.</p>
                 </div>
             </div>
+            <Message></Message>
 
             <section className="flex flex-col lg:flex-row justify-evenly mt-24 px-4 lg:px-0">
                 <div className="flex-1 text-center bg-slate-100 p-6 rounded-lg shadow-lg">

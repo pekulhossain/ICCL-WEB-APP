@@ -10,6 +10,7 @@ import Contact from "../Pages/Home/Contact/Contact";
 import About2 from "../Pages/Home/About/About2";
 import Certification from "../Pages/Home/About/Certification";
 import SisterConcern from "../Pages/Home/About/SisterConcern";
+import Gallary from "../Pages/Gallary/Gallary";
 
 
 
@@ -38,23 +39,27 @@ export const router = createBrowserRouter([
         element: <Products></Products>
       },
       {
+        path: "photos",
+        element:<Gallary></Gallary>
+      },
+      {
         path: "testimonial",
         element: <Testimonial></Testimonial>
       }
       ,
       {
         path: "contact",
-        element:<Contact></Contact>
+        element: <Contact></Contact>
       },
       {
-        path:"Certification",
-        element:<Certification></Certification>
+        path: "Certification",
+        element: <Certification></Certification>
       },
       {
-        path:"SisterConcern",
-        element:<SisterConcern></SisterConcern>,
+        path: "SisterConcern",
+        element: <SisterConcern></SisterConcern>,
       }
     ]
   },
-  
+
 ]);
