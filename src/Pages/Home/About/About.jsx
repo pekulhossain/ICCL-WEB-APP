@@ -14,7 +14,7 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="py-28 px-4 lg:px-0 flex flex-col lg:flex-row mb-12"
+            className="py-28 px-4 lg:px-0 flex flex-col lg:flex-row mb-12 bg-white"
         >
             <div className="grid grid-cols-2 gap-4 flex-1 lg:mr-4">
                 <div className="transform transition duration-500 hover:scale-95">
