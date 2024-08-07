@@ -30,7 +30,7 @@ const ComGrouth = () => {
                         <time className="font-mono italic">2015</time>
                         <div className="text-lg font-black text-pink-500">Mr. (name) took responsibility as Managing Director</div>
                         <div className="text-justify">
-                            (name) delegated the authority of Managing Director to his beloved son Mr. (name) in 2001. Since then Mr.(name) is holding the position of honorable Managing Director of the group and the group runs very smoothly under his dynamic leadership.
+                            (name) delegated the authority of Managing Director Mr. (name) in 2015. Since then Mr.(name) is holding the position of honorable Managing Director of the group and the group runs very smoothly under his dynamic leadership.
                         </div>
                     </div>
                     <hr />
