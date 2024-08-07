@@ -35,15 +35,15 @@ const TopBar = () => {
       {!isMobile && (
         <div id="contact_info" className="topbar h-8 flex justify-between bg-slate-100 ">
           <div className="contact-info pl-8 flex items-center space-x-4">
-            <a href="tel:+09028464066" className="flex items-center">
+            <a href="#" className="flex items-center">
               <span className="pl-2 text-black">Have Any Question?</span>
             </a>
-            <a href="tel:+021123456789" className="flex items-center">
+            <a href="#" className="flex items-center">
               <MdAddCall className='text-pink-500' />
               <span className="pl-2 text-black">01735-231302</span>
             </a>
-            <span className="hidden md:flex items-center pl-4">
-              <IoIosMail className='text-pink-500' />
+            <span className="hidden md:flex items-center justify-items-center te pl-4">
+              <IoIosMail className='text-pink-500 text-center' />
               <span className="pl-2">pekul.erp@icclbd.com</span>
             </span>
           </div>
@@ -92,7 +92,7 @@ const TopBar = () => {
               <li>
                 <NavLink to="/" className="relative group">
                   <span className="group-hover:text-pink-500 transition duration-300">Home</span>
-                  <span className="absolute left-0 bottom-0 w-full h-0.5 bg-pink-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
+                  {/* <span className="absolute left-0 bottom-0 w-full h-0.5 bg-pink-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span> */}
                 </NavLink>
               </li>
               <div className="relative group">
@@ -100,42 +100,55 @@ const TopBar = () => {
                   <span className="cursor-pointer hover:text-pink-500 transition duration-300">About ICCL</span>
                 </li>
                 <ul className="dropdown-content absolute hidden group-hover:block bg-slate-500 rounded-box z-[1] w-52 p-2 shadow">
-                  <li><NavLink to="/about2" className="relative group"><span className='hover:text-pink-500 transition duration-300'>About Us</span><span className=" left-0 bottom-0 w-full h-0.5 bg-pink-500 transform scale-x-0 hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span></NavLink></li>
-                  <li><NavLink to="/Certification" className="relative group"><span className='hover:text-pink-500 transition duration-300'>Certification</span></NavLink></li>
-                  <li><NavLink to="/SisterConcern" className="relative group"><span className='hover:text-pink-500 transition duration-300'>Sister Concern</span></NavLink></li>
+                  <li>
+                    <NavLink to="/about2" className="relative group">
+                      <span id='about-us' className=' hover:text-pink-500 transition duration-300'>About Us</span>
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/Certification" className="relative group">
+                      <span id='certification' className='hover:text-pink-500 transition duration-300'>Certification</span>
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/SisterConcern" className="relative">
+                      <span id='sister-concern' className='hover:text-pink-500 transition duration-300'>Sister Concern</span>
+                      {/* <span className="absolute left-0 bottom-0 w-full h-0.5 bg-pink-500 transform scale-x-0 hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span> */}
+                    </NavLink>
+                  </li>
                 </ul>
               </div>
               <li>
                 <NavLink to="/service" className="relative group">
                   <span className="group-hover:text-pink-500 transition duration-300">Service</span>
-                  <span className="absolute left-0 bottom-0 w-full h-0.5 bg-pink-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
+                  {/* <span className="absolute left-0 bottom-0 w-full h-0.5 bg-pink-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span> */}
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/Products" className="relative group">
                   <span className="group-hover:text-pink-500 transition duration-300">Products</span>
-                  <span className="absolute left-0 bottom-0 w-full h-0.5 bg-pink-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
+                  {/* <span className="absolute left-0 bottom-0 w-full h-0.5 bg-pink-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span> */}
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/photos" className="relative group">
                   <span className="group-hover:text-pink-500 transition duration-300">Gallery</span>
-                  <span className="absolute left-0 bottom-0 w-full h-0.5 bg-pink-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
+                  {/* <span className="absolute left-0 bottom-0 w-full h-0.5 bg-pink-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span> */}
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/testimonial" className="relative group">
                   <span className="group-hover:text-pink-500 transition duration-300">Testimonials</span>
-                  <span className="absolute left-0 bottom-0 w-full h-0.5 bg-pink-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
+                  {/* <span className="absolute left-0 bottom-0 w-full h-0.5 bg-pink-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span> */}
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/Contact" className="relative group">
                   <span className="group-hover:text-pink-500 transition duration-300">Contact</span>
-                  <span className="absolute left-0 bottom-0 w-full h-0.5 bg-pink-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
+                  {/* <span className="absolute left-0 bottom-0 w-full h-0.5 bg-pink-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span> */}
                 </NavLink>
               </li>
-              {/* <NavLink to="/Contact"><li><a>Contact</a></li></NavLink> */}
+            
             </ul>
           </div>
         )}
