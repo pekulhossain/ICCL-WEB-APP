@@ -74,4 +74,34 @@
   .animate-marquee5 {
     animation: marquee5 10s linear infinite;
   }
-  
+/* Banner2.css */
+
+.slide-text {
+  position: absolute;
+  bottom: 20px;
+  left: 100%;
+  font-size: 2rem;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+.keen-slider__slide {
+  position: relative;
+  text-align: center;
+}
+
+.keen-slider__slide img {
+  width: 100%;
+  height: auto;
+}

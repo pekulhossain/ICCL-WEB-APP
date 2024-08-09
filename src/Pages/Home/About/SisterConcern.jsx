@@ -13,7 +13,7 @@ const SisterConcern = () => {
             </Helmet>
             <div className="flex flex-col lg:flex-row gap-4 px-4 lg:px-0">
                 <div className="flex-1 lg:mr-4 mb-8 lg:mb-0">
-                    <h1 className="text-3xl text-center text-pink-500 mb-12">Our Sister Concern</h1>
+                    <h1 className="text-3xl text-left text-pink-500 mb-12">Our Sister Concern</h1>
                     <p className="text-start mb-4">
                         ICCL Group of Industries, one of the promising RMG manufacturing business organizations in Bangladesh.
                     </p>
