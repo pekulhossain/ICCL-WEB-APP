@@ -12,14 +12,17 @@ import Service from "../Servicess/Service";
 import Whchoose from "../whychoose/Whchoose";
 import Clients from "./Cutomers/Clients";
 import Testimonial from "./Testimonial/Testimonial";
-import Banner2 from "../Banner/Banner2";
+import Slider from "../Slider/slider";
+// import Banner2 from "../Banner/Banner2";
+
 
 
 
 const Home = () => {
     return (
         <div>
-            <Banner2></Banner2>
+           <Slider></Slider>
+            {/* <Banner2></Banner2> */}
             <Feature></Feature>
             <About></About>
             <Service></Service>

@@ -14,6 +14,8 @@ const Banner2 = () => {
     const [sliderRef] = useKeenSlider(
         {
           loop: true,
+          duration:30000,
+         
         },
         
         [
@@ -28,7 +30,7 @@ const Banner2 = () => {
               if (mouseOver) return
               timeout = setTimeout(() => {
                 slider.next()
-              }, 3000)
+              }, 4000)
             }
             slider.on("created", () => {
               slider.container.addEventListener("mouseover", () => {

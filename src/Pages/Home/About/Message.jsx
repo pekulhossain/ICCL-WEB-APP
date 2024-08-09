@@ -1,6 +1,6 @@
 
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
-import MdsirImage from "../../../assets/SisterConcern/1.jpg";
+import MdsirImage from "../../../assets/Testimonial/mdsir.jpg";
 const Message = () => {
     return (
         <section className="py-28 px-4 bg-slate-100">

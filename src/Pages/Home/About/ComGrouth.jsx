@@ -19,10 +19,10 @@ const ComGrouth = () => {
                             ICCL Group of Industries, one of the promising RMG manufacturing business organizations, emerged in 1984 from the sole initiative of (Name) the former and founder Chairman and Managing Director of the Group.
                         </div>
                     </div>
-                    <hr />
+                    <hr className="bg-slate-200" />
                 </li>
                 <li>
-                    <hr />
+                <hr className="bg-slate-200" />
                     <div className="timeline-middle">
                         <IoDiscSharp className="text-2xl"></IoDiscSharp>
                     </div>
@@ -33,10 +33,10 @@ const ComGrouth = () => {
                             (name) delegated the authority of Managing Director Mr. (name) in 2015. Since then Mr.(name) is holding the position of honorable Managing Director of the group and the group runs very smoothly under his dynamic leadership.
                         </div>
                     </div>
-                    <hr />
+                    <hr className="bg-slate-200" />
                 </li>
                 <li>
-                    <hr />
+                <hr className="bg-slate-200" />
                     <div className="timeline-middle">
                         <IoDiscSharp className="text-2xl"></IoDiscSharp>
                     </div>
@@ -47,7 +47,7 @@ const ComGrouth = () => {
                             Over a period of last seventeen years, the company’s business growth is very high and significant. Starting with only one Garment Factory, ICCL Group now owns 37 Garments units, 5 Knitting units and some other backward linkage factories. Over a period of 34 years, ICCL has managed to create its own identity as one of the country’s leading foreign currency earner in the RMG sector through promoting in RMG sector rapidly.
                         </div>
                     </div>
-                    <hr />
+                    <hr className="bg-slate-200" />
                 </li>
                 <li>
                     <div className="timeline-middle">
