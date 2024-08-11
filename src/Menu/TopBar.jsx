@@ -104,19 +104,22 @@ const TopBar = () => {
                 </li>
                 <ul className="dropdown-content absolute hidden group-hover:block bg-slate-500 rounded-box z-[1] w-52 p-2 shadow">
                   <li>
-                    <a href='/about2' className="relative">
-                      <span id='about-us' className=' hover:text-pink-500 transition duration-300'>About Us</span>
-                    </a>
+                    <NavLink to="/about2" className="">
+                      <span className="hover:text-pink-500 transition duration-300">About Us</span>
+                      <span className="absolute left-0 bottom-0 w-full h-0.5 bg-pink-500 transform scale-x-0 hover:scale-x-100 transition-transform duration-300 ease-out origin-left">Service</span>
+                    </NavLink>
                   </li>
                   <li>
-                    <a href='/Certification' className="relative group">
-                      <span id='certification' className='hover:text-pink-500 transition duration-300'>Certification</span>
-                    </a>
+                    <NavLink to="/Certification" className="">
+                      <span className="hover:text-pink-500 transition duration-300">Certification</span>
+                      <span className="absolute left-0 bottom-0 w-full h-0.5 bg-pink-500 transform scale-x-0 hover:scale-x-100 transition-transform duration-300 ease-out origin-left">Service</span>
+                    </NavLink>
                   </li>
-                  <li>
-                    <a href='/SisterConcern' className="relative group">
-                      <span id='sister-concern' className='hover:text-pink-500 transition duration-300'>Sister Concern</span>
-                    </a>
+                  <li className=''>
+                    <NavLink to="/SisterConcern" className="">
+                      <span className="hover:text-pink-500 transition duration-300">Sister Concern</span>
+                      <span className="absolute left-0 bottom-0 w-full h-0.5 bg-pink-500 transform scale-x-0 hover:scale-x-100 transition-transform duration-300 ease-out origin-left">Service</span>
+                    </NavLink>
                   </li>
                 </ul>
               </div>

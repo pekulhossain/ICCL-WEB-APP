@@ -3,8 +3,10 @@ import { FaSquare, FaFacebook, FaLinkedin } from "react-icons/fa";
 import { FaSquareTwitter } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io";
 import iccllogo from '../../../assets/Logo/ICCL2.jpg';
-import Iframe from "./Iframe";
+
 import './Footer.css';
+import EffectFades from "./EffectFades";
+
 
 const Footer = () => {
     return (
@@ -43,8 +45,8 @@ const Footer = () => {
                     </div>
                     <div id="google_mapp" className="flex flex-col items-start">
                         <h4 className="footer-title border-b-2 border-white">ICCL</h4>
-                        <div className="w-auto">
-                            <Iframe />
+                        <div className="h-44 w-72">
+                           <EffectFades></EffectFades>
                         </div>
                     </div>
                     <div id="Social_mediass" className="flex flex-col items-end">
