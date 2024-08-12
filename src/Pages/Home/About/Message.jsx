@@ -5,7 +5,7 @@ const Message = () => {
     return (
         <section className="py-28 px-4 bg-slate-100">
         <div className="mb-12">
-            <SectionTitle subHeading={"Message From Our MD SIR"} heading={""} />
+            <SectionTitle subHeading={"Message From Our Honorable MD SIR"} heading={""} />
         </div>
         <div className="flex flex-col lg:flex-row gap-4 px-4 lg:px-0">
             <div className="flex-1 lg:mr-4 mb-8 lg:mb-0">
@@ -16,7 +16,7 @@ const Message = () => {
                 <p className="text-start">
                 Today, ICCL group has established itself at the forefront of RMG manufacturing and none of this would have been possible without our amazing team, and strong bonds with our great suppliers and customers. We look forward to further enhance our current relationships and building new ones as we seek to grow together in all our future ventures.
                 </p>
-                <h3 className="text-end mt-20 font-semibold">Thank you, <br /> Name</h3>
+                <h3 className="text-end mt-20 font-semibold"><i>Thank You,</i> <br /> <i>M. A. Muttaleeb Khokan</i></h3>
             </div>
             <div className="flex-1">
                 <img className="rounded-lg shadow-lg" src={MdsirImage} alt="Message" />
