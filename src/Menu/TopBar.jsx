@@ -77,7 +77,7 @@ const TopBar = () => {
                   </li>
                   <li><NavLink to="/service">Service</NavLink></li>
                   <li><NavLink to="/Products">Products</NavLink></li>
-                  <NavLink to="/photos"><li><a>Gallary</a></li></NavLink>
+                   <li><NavLink to="/photos">Gallary</NavLink></li>
                   <li><NavLink to="/testimonial">Testimonials</NavLink></li>
                   <li><NavLink to="/Contact">Contact</NavLink></li>
                 </ul>
