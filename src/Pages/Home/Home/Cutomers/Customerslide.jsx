@@ -9,7 +9,10 @@ import "./Customer.css";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import Clientsimg from "../../../../assets/Clients/JDY.JPG";
+import Clientsimg1 from "../../../../assets/Clients/JDY.JPG";
+import Clientsimg2 from "../../../../assets/Clients/2.png";
+import Clientsimg3 from "../../../../assets/Clients/3.jpg";
+
 
 
 const Customerslide = () => {
@@ -34,10 +37,11 @@ const Customerslide = () => {
             >
                 <div className=''>
 
-                    <SwiperSlide><img className='w-8 h-4' src={Clientsimg} alt="" /></SwiperSlide>
-                    <SwiperSlide><img className='w-8 h-4' src={Clientsimg} alt="" /></SwiperSlide>
-                    <SwiperSlide><img className='w-8 h-4' src={Clientsimg} alt="" /></SwiperSlide>
-                    <SwiperSlide><img className='w-8 h-4' src={Clientsimg} alt="" /></SwiperSlide>
+                    <SwiperSlide><img className='w-8 h-4' src={Clientsimg1} alt="" /></SwiperSlide>
+                    <SwiperSlide><img className='w-8 h-4' src={Clientsimg2} alt="" /></SwiperSlide>
+                    <SwiperSlide><img className='w-8 h-4' src={Clientsimg1} alt="" /></SwiperSlide>
+                    <SwiperSlide><img className='w-8 h-4' src={Clientsimg3} alt="" /></SwiperSlide>
+                   
 
                 </div>
 

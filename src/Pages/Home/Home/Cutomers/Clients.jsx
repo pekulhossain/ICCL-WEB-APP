@@ -6,7 +6,7 @@ const Clients = () => {
         <section className="py-8 my-16 bg-white">
 
             <SectionTitle subHeading={"TRUSTED CLIENT"}
-                heading={"Our Happy Partners"}>
+                heading={"Our Buyers"}>
             </SectionTitle>
             <div>
                 <p className="text-center mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, hic!</p>

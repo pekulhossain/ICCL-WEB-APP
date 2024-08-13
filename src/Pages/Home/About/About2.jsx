@@ -4,20 +4,16 @@ import awardImg from "../../../assets/About/award.JPG";
 import { Helmet } from "react-helmet-async";
 import ComGrouth from "./ComGrouth";
 import Message from "./Message";
-
 import { useNavigate } from 'react-router-dom';
 
 
 
 const About2 = () => {
-
     const navigate = useNavigate();
-    const openInNewWindow = () => {
-        const newWindow = window.open('', '_blank', 'noopener,noreferrer');
-        if (newWindow) {
-            // Modify this to match the route of the component you want to open
-            newWindow.location.href = `${window.location.origin}/certification`;
-        }
+    const handleClick = () => { // newWindow used for new tab open
+        navigate('/certification');
+        // const newWindow = window.open(`${window.location.origin}/certification`, '_blank', 'noopener,noreferrer');
+        // if (newWindow) newWindow.focus();
     };
 
     return (
@@ -64,8 +60,8 @@ const About2 = () => {
                 <div className="flex-1 text-center bg-slate-100 p-6 rounded-lg shadow-lg">
                     <h1 className="text-3xl text-pink-500 mb-6">ICCL Premium awards</h1>
                     <p className="mb-4">We have been awarded by national & international reputed organizations.</p>
-                    <button onClick={openInNewWindow} className="btn text-white btn-lg relative h-[50px] w-52 transition-all before:absolute before:left-0 before:top-0 before:h-full before:w-0 before:duration-500 after:absolute after:right-0 after:top-0 after:h-full after:w-0 after:duration-500 hover:text-white hover:before:w-2/4 hover:before:bg-black hover:after:w-2/4 hover:after:bg-black bg-pink-500">
-                    See Certification
+                    <button onClick={handleClick} className="btn text-white btn-lg relative h-[50px] w-46 transition-all before:absolute before:left-0 before:top-0 before:h-full before:w-0 before:duration-500 after:absolute after:right-0 after:top-0 after:h-full after:w-0 after:duration-500 hover:text-white hover:before:w-2/4 hover:before:bg-black hover:after:w-2/4 hover:after:bg-black bg-pink-500">
+                        See Certification
                     </button>
                 </div>
                 <div className="flex-1">

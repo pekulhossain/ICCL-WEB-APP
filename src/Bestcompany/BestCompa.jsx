@@ -3,8 +3,15 @@ import './Bestcompa.css';
 import { motion } from 'framer-motion';
 //variants
 import { fadeIn } from '../FramerMotion/variants'
+import { useNavigate } from 'react-router-dom';
 
 const BestCompa = () => {
+
+    const navigate = useNavigate();
+    const handleClick = () => { 
+        navigate('/contact');
+    };
+
     return (
         <div className="best-company bg-fixed text-white pt-4 h-96">
             <div className='overlay'>
@@ -19,7 +26,7 @@ const BestCompa = () => {
                             heading={"Ready To Work With Us"}
                             Paragraph={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}>
                         </SectionTitle>
-                        <button className="btn mt-4 text-white btn-lg relative h-[50px] w-40 transition-all before:absolute before:left-0 before:top-0 before:h-full before:w-0 before:duration-500 after:absolute after:right-0 after:top-0 after:h-full after:w-0 after:duration-500 hover:text-white hover:before:w-2/4 hover:before:bg-black hover:after:w-2/4 hover:after:bg-black bg-pink-500 flex justify-center items-center place-items-center"><span className="relative z-10">Contact Us</span></button>
+                        <button onClick={handleClick} className="btn mt-4 text-white btn-lg relative h-[50px] w-40 transition-all before:absolute before:left-0 before:top-0 before:h-full before:w-0 before:duration-500 after:absolute after:right-0 after:top-0 after:h-full after:w-0 after:duration-500 hover:text-white hover:before:w-2/4 hover:before:bg-black hover:after:w-2/4 hover:after:bg-black bg-pink-500 flex justify-center items-center place-items-center"><span className="relative z-10">Contact Us</span></button>
                     </motion.div>
                 </div>
             </div>
