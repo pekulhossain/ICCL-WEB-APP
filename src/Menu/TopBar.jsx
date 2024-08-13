@@ -12,7 +12,7 @@ const TopBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   // Media query hooks
-  const isDesktop = useMediaQuery({ minWidth: 1024 });
+  const isDesktop = useMediaQuery({ minWidth: 768 });
   const isMobile = useMediaQuery({ maxWidth: 767 });
 
   useEffect(() => {
@@ -87,7 +87,7 @@ const TopBar = () => {
           <a className="text-xl"><img className="h-12 pl-8 m-0 p-0" src={logoImg} alt="ICCL Logo" /></a>
         </div>
         {isDesktop && (
-          <div className="navbar-center text-white hidden lg:flex">
+          <div className="navbar-center text-white hidden lg:flex md:flex">
             <ul className="menu menu-horizontal flex justify-items-start items-center px-1">
               <li>
                 <NavLink to="/" className="relative group">
