@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 
 const Certification = () => {
     return (
-        <section className="py-28 bg-white mx-4 px-4 lg:px-0">
+        <section className="py-28 bg-white px-4 lg:px-0">
             <Helmet>
                 <title>ICCL || Certification</title>
             </Helmet>
