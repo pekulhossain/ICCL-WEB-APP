@@ -105,7 +105,7 @@ const slide3Variant = {
          initial="hidden"
          animate={currentSlide === 0 ? controls : 'visible'}
          variants={slide1Variant}
-         transition={{ duration: 1 }}
+         transition={{ duration: 1,delay:0 }}
         >
           <h2>Welcome to Our Company</h2>
           <p>We deliver quality services</p>
@@ -118,7 +118,7 @@ const slide3Variant = {
           initial="hidden"
           animate={currentSlide === 1 ? controls : 'visible'}
           variants={slide2Variant}
-          transition={{ duration: 1 }}
+          transition={{ duration: 1,delay:0 }}
         >
           <h2>Innovative Solutions</h2>
           <p>Leading the industry</p>
@@ -131,7 +131,7 @@ const slide3Variant = {
          initial="hidden"
          animate={currentSlide === 2 ? controls : 'visible'}
          variants={slide3Variant}
-         transition={{ duration: 1 }}
+         transition={{ duration: 1,delay:0 }}
         >
           <h2>Global Reach</h2>
           <p>Connecting the world</p>
@@ -144,7 +144,7 @@ const slide3Variant = {
           initial="visible"
           animate={currentSlide === 3 ? controls : 'hidden'}
           variants={slide2Variant}
-          transition={{ duration: 1 }}
+          transition={{ duration: 1,delay:0 }}
         >
           <h2>Expert Team</h2>
           <p>Professional and dedicated</p>
