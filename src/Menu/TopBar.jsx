@@ -73,6 +73,7 @@ const TopBar = () => {
                       <li><NavLink to="/about2">About Us</NavLink></li>
                       <li><NavLink to="/Certification">Certification</NavLink></li>
                       <li><NavLink to="/SisterConcern">Sister Concern</NavLink></li>
+                      <li><NavLink to="/BoardOf">Board Of Directors</NavLink></li>
                     </ul>
                   </li>
                   <li><NavLink to="/service">Service</NavLink></li>
