@@ -11,8 +11,7 @@ import About2 from "../Pages/Home/About/About2";
 import Certification from "../Pages/Home/About/Certification";
 import SisterConcern from "../Pages/Home/About/SisterConcern";
 import Gallary from "../Pages/Gallary/Gallary";
-
-
+import BoardOfD from "../Pages/Home/About/BoardOfD";
 
 export const router = createBrowserRouter([
   {
@@ -58,6 +57,10 @@ export const router = createBrowserRouter([
       {
         path: "SisterConcern",
         element: <SisterConcern></SisterConcern>,
+      },
+      {
+        path: "BoardOf",
+        element: <BoardOfD></BoardOfD>,
       }
     ]
   },

@@ -5,10 +5,11 @@ import { IoMdMail } from "react-icons/io";
 import { IoCall } from "react-icons/io5";
 import ContactForm from "./ContactForm";
 import { Helmet } from "react-helmet-async";
+import ContactMsg from "./ContactMsg";
 
 const Contact = () => {
     return (
-        <section className="py-28 px-4 bg-slate-100">
+        <section className="py-28 bg-slate-100">
             <Helmet>
                 <title>ICCL || Contact-Us</title>
             </Helmet>
@@ -56,6 +57,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+            <ContactMsg></ContactMsg>
             <ContactForm />
         </section>
     );

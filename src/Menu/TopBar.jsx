@@ -121,6 +121,12 @@ const TopBar = () => {
                       <span className="absolute left-0 bottom-0 w-full h-0.5 bg-pink-500 transform scale-x-0 hover:scale-x-100 transition-transform duration-300 ease-out origin-left">Service</span>
                     </NavLink>
                   </li>
+                  <li className=''>
+                    <NavLink to="/BoardOf" className="">
+                      <span className="hover:text-pink-500 transition duration-300">Board Of Directors</span>
+                      <span className="absolute left-0 bottom-0 w-full h-0.5 bg-pink-500 transform scale-x-0 hover:scale-x-100 transition-transform duration-300 ease-out origin-left">Service</span>
+                    </NavLink>
+                  </li>
                 </ul>
               </div>
               <li>

@@ -2,7 +2,7 @@ import { IoIosSend } from "react-icons/io";
 
 const ContactForm = () => {
     return (
-        <>
+        <section className="px-4">
             <div className=" flex justify-items-center text-center  items-center justify-center mt-8 pt-8 bg-white border-t-2 border-pink-500 border-b-2">
                 <form className="md:w-full justify-items-center text-center items-center">
                     <div className="flex justify-center items-center gap-4">
@@ -51,7 +51,7 @@ const ContactForm = () => {
                 </form>
 
             </div>
-        </>
+        </section>
     );
 };
 

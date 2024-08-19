@@ -55,9 +55,8 @@ const About2 = () => {
                 </div>
             </div>
             <Message></Message>
-
             <section className="flex flex-col lg:flex-row justify-evenly mt-24 px-4 lg:px-0">
-                <div className="flex-1 text-center bg-slate-100 p-6 rounded-lg shadow-lg">
+                <div className="flex-1 flex flex-col justify-center items-center text-center bg-slate-100 p-6 rounded-lg shadow-lg">
                     <h1 className="text-3xl text-pink-500 mb-6">ICCL Premium awards</h1>
                     <p className="mb-4">We have been awarded by national & international reputed organizations.</p>
                     <button onClick={handleClick} className="btn text-white btn-lg relative h-[50px] w-46 transition-all before:absolute before:left-0 before:top-0 before:h-full before:w-0 before:duration-500 after:absolute after:right-0 after:top-0 after:h-full after:w-0 after:duration-500 hover:text-white hover:before:w-2/4 hover:before:bg-black hover:after:w-2/4 hover:after:bg-black bg-pink-500">

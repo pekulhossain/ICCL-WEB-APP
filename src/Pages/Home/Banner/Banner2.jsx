@@ -106,7 +106,7 @@ const Banner2 = () => {
           transition={{ duration: 1, delay: 0 }}
         >
           <h2>Welcome to Our Company</h2>
-          <p>We deliver quality services</p>
+          <p>We deliver quality products</p>
         </motion.div>
       </div>
       <div className="keen-slider__slide number-slide2">
